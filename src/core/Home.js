@@ -25,7 +25,7 @@ function Home(props) {
 
     useEffect(() => {
         loadAllProducts()
-    }, []);
+    }, [buttonLabel]);
 
 
     return (

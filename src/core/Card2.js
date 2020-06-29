@@ -59,16 +59,25 @@ const Card = ({
     }
 
     return (
-        <div className="card text-white bg-dark border border-info product-card">
-            <div className="card-header lead">{cardTitle}</div>
-            <div className="card-body">
-                {getRedirected(redirect)}
-                <ImageHelper product={product ? product : undefined}/>
-                <p className="lead bg-success font-weight-normal text-wrap">
+        <div className="card-container-parent">
+            <div className="card-container">
+
+                <div className="card-container__image-column">
+                    <ImageHelper product={product ? product : undefined}/>
+                    <div className="card-container__product-name">
+                        {cardTitle}
+                    </div>
+                </div>
+
+                <p className="card-container__product-description">
                     {cardDescription}
                 </p>
-                <p className="btn btn-success rounded  btn-sm px-4">$ {cardPrice}</p>
-                <div className="row">
+
+                <p className="card-container__product-price">
+                    $ {cardPrice}
+                </p>
+
+                <div className="card-container__add-or-remove-item">
                     <div className="col-12">
                         {showAddToCart(addToCart)}
                     </div>
@@ -76,7 +85,9 @@ const Card = ({
                         {showRemoveFromCart(removeFromCart)}
                     </div>
                 </div>
+
             </div>
+            <hr/>
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {API} from "../backend";
 import Base from "./Base";
 import Card from "./Card";
+import Card2 from "./Card2";
 import {getAllProducts} from "./helper/coreapicalls";
 import {loadCart} from "./helper/cartHelper";
 import StripeCheckout from "./StripeCheckout";
@@ -20,9 +21,10 @@ function Cart(props) {
         return (
             <div>
                 <h2>This section is to load products</h2>
+                <hr/>
                 {products.map((product, index) => {
                     return (
-                        <Card
+                        <Card2
                             key={index}
                             product={product}
                             addToCart={false}
