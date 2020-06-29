@@ -30,7 +30,7 @@ function Base({
                 </div>
                 <div className="container">
                     <span className="text-muted">
-                        An amazing <span className="text-white">MERN</span> Bootcamp!
+                        An amazing <span className="text-white">MERN</span> Portfolio Project!
                     </span>
                 </div>
             </footer>

@@ -32,7 +32,7 @@ function Home2(props) {
         <Base title={"Home Page"} description={"Welcome to the E-Commerce Store"}>
             <div className="home-container">
                 <div className="sidebar">
-                    <h3>Filter results</h3>
+                    <h3 style={{"text-align": "center"}}>Filter results</h3>
                     <FilterCard buttonLabel={buttonLabel} setButtonLabel={setButtonLabel}/>
                 </div>
 
