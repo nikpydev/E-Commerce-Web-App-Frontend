@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Shoppersonic-Frontend/precache-manifest.49094607b82afa5d2571e7263c1901c6.js"
+  "/Shoppersonic-Frontend/precache-manifest.895b6ed27c61de59cd0827ad7a6d86e2.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Shoppersonic-Frontend/static/css/main.c7bf5bc0.chunk.css",
-    "main.js": "/Shoppersonic-Frontend/static/js/main.739af906.chunk.js",
-    "main.js.map": "/Shoppersonic-Frontend/static/js/main.739af906.chunk.js.map",
+    "main.js": "/Shoppersonic-Frontend/static/js/main.3dbebffe.chunk.js",
+    "main.js.map": "/Shoppersonic-Frontend/static/js/main.3dbebffe.chunk.js.map",
     "runtime-main.js": "/Shoppersonic-Frontend/static/js/runtime-main.637dfa55.js",
     "runtime-main.js.map": "/Shoppersonic-Frontend/static/js/runtime-main.637dfa55.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Shoppersonic-Frontend/static/css/2.af3c1da9.chunk.css",
     "static/js/2.e1915a48.chunk.js": "/Shoppersonic-Frontend/static/js/2.e1915a48.chunk.js",
     "static/js/2.e1915a48.chunk.js.map": "/Shoppersonic-Frontend/static/js/2.e1915a48.chunk.js.map",
     "index.html": "/Shoppersonic-Frontend/index.html",
-    "precache-manifest.49094607b82afa5d2571e7263c1901c6.js": "/Shoppersonic-Frontend/precache-manifest.49094607b82afa5d2571e7263c1901c6.js",
+    "precache-manifest.895b6ed27c61de59cd0827ad7a6d86e2.js": "/Shoppersonic-Frontend/precache-manifest.895b6ed27c61de59cd0827ad7a6d86e2.js",
     "service-worker.js": "/Shoppersonic-Frontend/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Shoppersonic-Frontend/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.c7bf5bc0.chunk.css.map": "/Shoppersonic-Frontend/static/css/main.c7bf5bc0.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.e1915a48.chunk.js",
     "static/css/main.c7bf5bc0.chunk.css",
-    "static/js/main.739af906.chunk.js"
+    "static/js/main.3dbebffe.chunk.js"
   ]
 }
