@@ -18,7 +18,7 @@ function Menu({history}) {
                     <Link
                         style={currentTab(history, "/")}
                         className="nav-link"
-                        to={"/"}
+                        to={"/Shoppersonic-Frontend"}
                     >
                         Home
                     </Link>
