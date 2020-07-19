@@ -20,7 +20,7 @@ function Routes(props) {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path={"/Shoppersonic-Frontend"} exact component={Home2}/>
+                <Route path={"/Shoppersonic"} exact component={Home2}/>
                 <Route path={"/register"} exact component={Register}/>
                 <Route path={"/login"} exact component={Login}/>
                 <Route path={"/cart"} exact component={Cart}/>
